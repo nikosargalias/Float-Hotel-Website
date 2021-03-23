@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main Styling */
+html,
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.container {
+  margin: auto;
+  max-width: 1000px;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+.hero-title {
+  font-size: 60px;
+  max-width: 100%;
+}
+
+.hero-text {
+  padding-bottom: 20px;
+  line-height: 1.7em;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  color: white;
+  padding: 10px 15px;
+  background: rgba(255, 166, 0, 0.673);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: rgba(255, 166, 0, 0.399);
+}
+
+.bg-dark {
+  background: #333;
+  color: white;
+}
+
+.bg-light {
+  background: #f4f4f4;
+  color: #333;
+}
+
+.bg-primary {
+  background: #333;
+  color: #f7c08a;
+}
+
+.highlight {
+  color: orange;
+}
+
+.lead {
+  font-size: 20px;
+}
+
+#navbar {
+  background: #333;
+  color: #fff;
+  overflow: auto;
+}
+
+#navbar a {
+  color: white;
+}
+
+#navbar .logo {
+  float: left;
+  padding: 15px 15px;
+}
+
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+  background: #444;
+  color: #f7c08a;
+}
+
+/* Showcase */
+#showcase {
+  background: url("/src/assets/image_resources/showcase.jpg") no-repeat center
+    center/cover;
+  height: 600px;
+}
+
+.showcase-content {
+  color: #fff;
+  text-align: center;
+  padding: 180px 50px;
+  max-width: 400 400;
+}
+
+/* Home Info */
+.section-container {
+  height: 400px;
+  position: relative;
+}
+
+.section-img {
+  width: 50%;
+  background: url(../assets/image_resources/photo-1.jpg) no-repeat;
+  min-height: 100%;
+}
+
+.section-content {
+  height: 100%;
+  width: 50%;
+  text-align: center;
+  overflow: auto;
+  padding: 100px 50px;
+}
+
+.section-content p {
+  padding-bottom: 30px;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}

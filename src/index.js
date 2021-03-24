@@ -4,6 +4,7 @@ import "@fortawesome/fontawesome-free/js/solid";
 import "@fortawesome/fontawesome-free/js/regular";
 import "@fortawesome/fontawesome-free/js/brands";
 import "./styles/styles.css";
+import "./styles/mobile.css";
 
 // import { fontawesome } from "@fortawesome/fontawesome-free/scss/fontawesome.scss";
 // import { regular } from "@fortawesome/fontawesome-free/scss/regular.scss";
